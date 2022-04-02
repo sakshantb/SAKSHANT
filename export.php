@@ -27,15 +27,16 @@ if ($num > 0) { ?>
                     <td><?php echo "<img src='$row[pic]' height='50px' width='50px'>"; ?></td>
                 </tr>
             </tbody>
-        <?PHP  } 
-        header("Content-type: application/octet-stream");  
-        header("Content-Disposition: attachment; filename=User_Detail.xls");  
-        header("Pragma: no-cache");  
-        header("Expires: 0");  
-        
+        <?PHP  }
+                    header("Content-type: application/octet-stream");
+                    header("Content-Disposition: attachment; filename=User_Detail.xls");
+                    header("Pragma: no-cache");
+                    header("Expires: 0");
+
+
         ?>
-
     </table>
-<?PHP  }
+<?PHP
 
-
+                        
+} ?>
